@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test-runner -FIREFOX(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="vTiger.contact.Create_contact">
+        <methods>
+          <include name="amConfig"/>
+          <include name="createContactWithLeadSourceAndOrg"/>
+          <include name="bcConfig"/>
+          <include name="asConfig"/>
+          <include name="bsConfig"/>
+          <include name="createContactWithLeadSource"/>
+          <include name="acConfig"/>
+          <include name="bmConfig"/>
+        </methods>
+      </class> <!-- vTiger.contact.Create_contact -->
+    </classes>
+  </test> <!-- Test-runner -FIREFOX(failed) -->
+</suite> <!-- Failed suite [Suite] -->
